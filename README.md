@@ -128,7 +128,7 @@ Therefore, features I will use are:
 ### Select Evaluation Metric (Report.ipynb)
 Because churn is a boolean/yes or no value, I will use classification machine learning algorithms to fit to the training data and evaluate on validate set.
 
-Then I will pick the best model using accuracy as the metric because the data is mostly balanced, and the risk of an event happening balances the risk of getting a prediction wrong.
+Then I will pick the best model using accuracy as the metric because it's very easy to understand.
 
 ### Evaluate Baseline (Report.ipynb)
 The baseline I set for train set is the mode of churn (churn = 0).
